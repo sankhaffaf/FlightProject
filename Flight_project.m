@@ -32,6 +32,7 @@ plot(V,E(1,:),V,E(2,:))
 title('Endurance as a function of cruise velocities');
 xlabel('Cruise velocity [m/s])');
 ylabel('Endurance [s]');
+legend('Rhino 6200mAh', 'Turnigy Rapid 5500mAh')
 
 %%Part 3
 
