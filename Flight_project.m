@@ -9,9 +9,9 @@ clc
 
 % V = 20.8/3.6; %Required speed
 V = [5.78:1.31:15]; %Ranges of velocities from minimum required to maximum allowed
-voltage = [14.8 14.8]; 
-ah = [6200 5500]*10^(-3); 
-mass = [705 543]*10^(-3); %kg
+voltage = [14.8 14.8 11.1 14.8]; 
+ah = [6200 5500 5000 5000]*10^(-3); 
+mass = [705 543 360 586]*10^(-3); %kg
 totalweight = 6 + mass; %Total weight of UAV
 ae = 10; %Aerodynamic efficiency
 pe = 0.8; %Propulsion efficiency
